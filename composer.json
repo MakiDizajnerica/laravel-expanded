@@ -1,0 +1,35 @@
+{
+    "name": "makidizajnerica/laravel-expanded",
+    "description": "Collection of Laravel helpers.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["php", "laravel", "framework", "helpers", "expanded"],
+    "homepage": "https://github.com/MakiDizajnerica/laravel-expanded",
+    "authors": [
+        {
+            "name": "Nemanja Marijanovic",
+            "email": "n.marijanovic@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": ">=9.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.9",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MakiDizajnerica\\Expanded\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MakiDizajnerica\\Expanded\\Tests": "tests"
+        }
+    }
+}
