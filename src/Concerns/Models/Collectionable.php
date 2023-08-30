@@ -15,7 +15,7 @@ trait Collectionable
     public function newCollection(array $models = []): Collection
     {
         if (property_exists($this, 'collection')
-            && is_a($this->collection, Collection::class)) {
+            && is_a($this->collection, Collection::class, true)) {
             return app($this->collection, ['items' => $models]);
         }
 
