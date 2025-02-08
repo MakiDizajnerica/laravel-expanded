@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Support;
+namespace MakiDizajnerica\Expanded\Support;
 
 use AllowDynamicProperties;
 use Illuminate\Support\Str;
